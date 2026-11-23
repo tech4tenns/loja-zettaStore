@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Caixa de Som -  ZETTA Store</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="barra-navegacao">
+        <a class="nome-loja" href="index.html"> ZETTA Store</a>
+        <a class="botao-voltar" href="catalogo.html">Voltar ao catálogo</a>
+        <form class="busca" action="#" method="get">
+            <input type="search" placeholder="Buscar produto">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+    <main class="container">
+        <h1 class="titulo-pagina">Detalhes do produto</h1>
+
+        <section class="produto-detalhe">
+            <img class="headset-gamer-arena-com-microfone-preto-e-verde-hgar-elg-1 - Copia.webp" src="headset-gamer-arena-com-microfone-preto-e-verde-hgar-elg-1 - Copia.webp" alt="fone de Ouvido gamer" style="height: 300px;">
+            <div class="informacoes-produto">
+                <h2>fone de Ouvido gamer</h2>
+                <p>Leve suas músicas para qualquer lugar.</p>
+                <p class="preco">Preço: R$ 139,90</p>
+                <a class="botao botao-comprar" href="#">Comprar agora</a>
+            </div>
+        </section>
+
+        <section class="formulario-promocoes">
+            <h2>Receba nossas promoções</h2>
+            <form action="#mensagem" method="get">
+                <label for="email">Digite seu e-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+
+                <label class="termos">
+                    <input type="checkbox" required>
+                    Aceito os termos de uso.
+                </label>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensagem" class="mensagem-sucesso">E-mail cadastrado com sucesso!</p>
+        </section>
+    </main>
+    <footer class="rodape"><p> ZETTA Store</p></footer>
+</body>
+</html>

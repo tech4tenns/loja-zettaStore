@@ -1,0 +1,30 @@
+PROJETO: PIXEL TECH
+
+COMO ABRIR:
+1. Abra esta pasta no Visual Studio Code.
+2. Abra o arquivo index.html no navegador.
+
+O QUE OS ALUNOS DEVEM PREENCHER:
+- Trocar textos e slogan.
+- Colocar os preços dos produtos.
+- Colocar seis fotos na pasta imagens.
+- Colocar uma foto de fundo chamada fundo.jpg na pasta imagens.
+- Se necessário, trocar as cores no arquivo css/estilo.css.
+
+NOMES DAS IMAGENS:
+fundo.jpg
+produto1.jpg
+produto2.jpg
+produto3.jpg
+produto4.jpg
+produto5.jpg
+produto6.jpg
+
+PÁGINAS:
+index.html = página inicial
+catalogo.html = catálogo
+detalhes-1.html até detalhes-6.html = detalhes de cada produto
+
+AVISO:
+O campo de busca e o botão de compra são apenas exemplos visuais.
+O formulário mostra a mensagem de sucesso, mas não salva o e-mail.
